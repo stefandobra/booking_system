@@ -1,6 +1,6 @@
-# 02 Booking System
+# Booking System
 
-A command-line client booking system built in Python as part of a portfolio project series demonstrating AI and full-stack development skills.
+A command-line client booking system built in Python.
 
 ## Features
 
@@ -22,7 +22,7 @@ A command-line client booking system built in Python as part of a portfolio proj
 ## Project Structure
 
 ```
-02_booking_system/
+booking_system/
 │
 ├── client.py                # Client class with UUID and safe list defaults
 ├── client_service.py        # Client logic: CRUD, notes, save/load, validation, auto-move past appointments
@@ -61,7 +61,7 @@ A command-line client booking system built in Python as part of a portfolio proj
 ## How to Run
 
 ```bash
-cd 02_booking_system
+cd booking_system
 python booking_system.py
 ```
 
@@ -82,15 +82,3 @@ python booking_system.py
 12. AI summary                       — AI-generated business insights for the salon
 0. Exit                              — saves and exits
 ```
-
-## Part of a Larger Project Series
-
-| # | Project | Status |
-|---|---------|--------|
-| 01 | Finance Tracker | ✅ Complete |
-| 02 | Booking System | ✅ Complete |
-| 03 | Stock Dashboard | 🔄 In Progress |
-| 04 | Fraud Detection ML | ⏳ Planned |
-| 05 | Security Tool | ⏳ Planned |
-| 06 | YouTube/TikTok Pipeline | ⏳ Planned |
-| 07 | AI Receptionist (SaaS) | ⏳ Capstone |
